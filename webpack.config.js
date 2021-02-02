@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const HotModuleReplacementPlugin = require('hot-module-replacement');
+const DashboardPlugin = require("webpack-dashboard/plugin");
 
 module.exports = {
 	context: path.resolve(__dirname, 'dev'),  // показывает исх. папку где лежат все исходники нашего приложения
@@ -32,6 +33,7 @@ module.exports = {
 		new CleanWebpackPlugin(),
 		// применять изменения только при горячей перезагрузке
 		new webpack.HotModuleReplacementPlugin(),
+		new DashboardPlugin(), // подключаем красивый интерфейс к webpack
 	],
 	module: {
 		rules: [

@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack --mode development --progress",
     "build": "webpack --mode production --progress",
-    "watch": "webpack serve --mode development --progress --watch"
+    "watch": "webpack serve --mode development --progress --watch",
+    "dashWatch": "webpack-dashboard -- webpack serve --mode development --progress --watch"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,7 @@
     "style-loader": "^2.0.0",
     "webpack": "^5.19.0",
     "webpack-cli": "^4.4.0",
+    "webpack-dashboard": "^3.3.1",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
