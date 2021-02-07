@@ -54,7 +54,7 @@ enter command `npm install` or `yarn install` (if you use yarn) to install depen
 
  ## БОНУС! плагин webpack-dashboard
 
- Этот плагин делает интерфейс вашей консоли в конфетку)
+ Этот плагин превращает интерфейс вашей консоли в конфетку)
 
  <img src="https://camo.githubusercontent.com/168acfe4997e36655568a8ae6a6c08eb65f25073a58cf560aeeae1eb91d3fcc8/687474703a2f2f692e696d6775722e636f6d2f714c3664584a642e706e67"> 
 
