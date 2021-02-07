@@ -1,0 +1,56 @@
+$border: 1px solid #ccc;
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	padding-top: 2rem;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 2rem;
+}
+
+h1 {
+	text-align: center;
+}
+
+.logo {
+	// background-image: url("./img/webpack-logo.png");
+	background-size: cover;
+	margin: 0 auto;
+	img {
+		height: 400px;
+		width: 400px;
+		padding: 0 30%;
+	}
+}
+
+.code {
+	color: chocolate;
+}
+
+.card {
+	padding: 1rem;
+	border-radius: 5px;
+	margin-top: 1rem;
+	border: $border;
+
+	h2 {
+		text-align: center;
+		color: darkred;
+	}
+}
+
+header {
+	nav {
+		text-align: center;
+	}
+
+}
+
+footer {
+	p {
+		text-align: center;
+	}
+}

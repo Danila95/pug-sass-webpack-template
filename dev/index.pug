@@ -1,0 +1,22 @@
+extends blocks/common.blocks/common/template.pug
+
+block variables
+	- title="Initialization Webpack"
+
+block content
+	.wrapper
+		include blocks/common.blocks/header/header.pug
+
+		.container
+			h1 First start Webpack
+			hr
+			.logo
+				img( src='img/webpack-logo.png')
+				h1 png loaded successfully
+				hr
+				pre
+				hr
+				.card
+					h2 SCSS is work very well
+
+	include blocks/common.blocks/footer/footer.pug

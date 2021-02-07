@@ -1,0 +1,15 @@
+// common.blocks
+
+// block common
+@import "~normalize.css";
+@import "blocks/common.blocks/common/colors";
+@import "blocks/common.blocks/common/fonts";
+@import "blocks/common.blocks/common/main";
+// block wrapper
+@import "blocks/common.blocks/wrapper/wrapper";
+
+// desktop.blocks
+@import "blocks/desktop.blocks/common/media";
+
+// touch.blocks
+@import "blocks/touch.blocks/common/media";

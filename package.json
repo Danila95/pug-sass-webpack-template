@@ -1,0 +1,68 @@
+{
+ "name": "pug-sass-webpack-template",
+ "version": "2.0.0",
+ "description": "Self-made Webpack template for web-projects where using: Pug and SASS",
+ "private": true,
+ "scripts": {
+  "dev": "cross-env NODE_ENV=development webpack --mode development --progress",
+  "build": "cross-env NODE_ENV=production webpack --mode production --progress",
+  "start": "cross-env NODE_ENV=development webpack --mode development --watch",
+  "watch": "cross-env NODE_ENV=development webpack-dev-server --mode development --watch --open",
+  "dash-watch": "cross-env NODE_ENV=development webpack-dashboard -- webpack-dev-server --mode development --progress --watch --open",
+  "prop": "webpack --env prop",
+  "stats": "webpack --json > stats.json && webpack-bundle-analyzer stats.json"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Danila95/pug-sass-webpack-template.git"
+ },
+ "browserslist": "> 0.25%, not dead",
+ "keywords": [
+  "js",
+  "javascript",
+  "webpack",
+  "Pug",
+  "SASS"
+ ],
+ "author": " Bogdanov Danila <danila00000@Gmail.com>",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/Danila95/pug-sass-webpack-template/issues"
+ },
+ "homepage": "https://github.com/Danila95/pug-sass-webpack-template#readme",
+ "devDependencies": {
+  "@babel/core": "^7.8.3",
+  "@babel/plugin-proposal-class-properties": "7.8.3",
+  "@babel/polyfill": "^7.12.1",
+  "@babel/preset-env": "7.8.3",
+  "babel-loader": "8.0.6",
+  "clean-webpack-plugin": "3.0.0",
+  "copy-webpack-plugin": "5.1.1",
+  "cross-env": "^6.0.3",
+  "css-loader": "3.4.2",
+  "csv-loader": "3.0.2",
+  "file-loader": "5.0.2",
+  "html-webpack-plugin": "3.2.0",
+  "imagemin-webpack-plugin": "^2.4.2",
+  "mini-css-extract-plugin": "0.9.0",
+  "node-sass": "^4.13.0",
+  "npm-check-updates": "^11.1.1",
+  "optimize-css-assets-webpack-plugin": "5.0.3",
+  "papaparse": "5.1.1",
+  "pug": "^3.0.0",
+  "pug-loader": "^2.4.0",
+  "sass-loader": "8.0.2",
+  "style-loader": "1.1.2",
+  "terser-webpack-plugin": "2.3.2",
+  "webpack": "4.41.5",
+  "webpack-bundle-analyzer": "3.6.0",
+  "webpack-cli": "3.3.10",
+  "webpack-dashboard": "^3.3.1",
+  "webpack-dev-server": "3.10.1",
+  "xml-loader": "1.2.1"
+ },
+ "dependencies": {
+  "jquery": "3.4.1",
+  "normalize.css": "8.0.1"
+ }
+}
