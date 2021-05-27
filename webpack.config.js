@@ -98,7 +98,8 @@ module.exports = (env) => {
 		console.log('========================================================');
 		console.log(`Операционная система OS: ${os.platform()}\n`);
 		console.log(`Архитектура процессора ARCH: ${os.arch()}\n`);
-		console.log(`Инфа по процессорам CPUS:${os.cpus()}\n`);
+		console.log('Инфа по процессорам CPUS:\n');
+		console.log(os.cpus());
 		console.log(`Свободно памяти Free memory: ${ ((( os.freemem() ) / 1024 ) / 1024).toFixed(2)} Mb\n`);
 		console.log(`Всего памяти  Total memory: ${((((os.totalmem()) / 1024 ) / 1024) / 1024).toFixed(2)} Gb\n`);
 		console.log(`Домашняя директория Home Dir: ${os.homedir()}\n`);
